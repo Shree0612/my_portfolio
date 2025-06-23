@@ -7,15 +7,15 @@ const ResumeCerts = () => (
     {/* Resume Buttons */}
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
       {/* View Resume */}
-     <a
-  href="/assets/resume.pdf"
+    <a
+  href="https://my-portfolio-k3zrylkcx-shree-shriyas-projects.vercel.app/assets/resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-full transition font-semibold"
-  download={false}
 >
   View Resume
 </a>
+
 
 
 
@@ -30,6 +30,8 @@ const ResumeCerts = () => (
     </div>
 
     {/* Certifications Grid */}
+    <h3 className="text-2xl md:text-3xl font-bold text-center text-white mt-12 mb-6">Certifications</h3>
+
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
       {[
         { title: 'Front-End Developer', org: 'One Roadmap', date: '2025' },
