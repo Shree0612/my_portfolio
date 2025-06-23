@@ -8,7 +8,7 @@ const ResumeCerts = () => (
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
       {/* View Resume */}
       <a
-        href="/resume.pdf"
+        href="assets/resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-full transition font-semibold"
@@ -18,7 +18,7 @@ const ResumeCerts = () => (
 
       {/* Download Resume */}
       <a
-        href="/resume.pdf"
+        href="public/resume.pdf"
         download
         className="bg-white text-indigo-800 hover:bg-indigo-200 px-6 py-2 rounded-full transition font-semibold"
       >
