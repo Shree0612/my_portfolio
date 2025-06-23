@@ -7,14 +7,17 @@ const ResumeCerts = () => (
     {/* Resume Buttons */}
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
       {/* View Resume */}
-      <a
-        href="assets/resume.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-full transition font-semibold"
-      >
-        View Resume
-      </a>
+     <a
+  href="/assets/resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-full transition font-semibold"
+  download={false}
+>
+  View Resume
+</a>
+
+
 
       {/* Download Resume */}
       <a
