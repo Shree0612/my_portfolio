@@ -10,11 +10,35 @@ const Contact = () => (
       Let’s connect and create something valuable.
     </p>
 
-    <div className="max-w-xl mx-auto space-y-4 text-center text-brand-50 text-lg">
-      <p><span className="font-semibold text-brand-100">Name:</span> Shree Shriya T</p>
-      <p><span className="font-semibold text-brand-100">Email:</span> srisriyat@gmail.com</p>
-      <p><span className="font-semibold text-brand-100">Phone:</span> +91-7829254444</p>
-    </div>
+   <div className="max-w-xl mx-auto space-y-4 text-center text-brand-50 text-lg">
+  <p>
+    <span className="font-semibold text-brand-100">Name:</span> Shree Shriya T
+  </p>
+  <p>
+    <span className="font-semibold text-brand-100">Email:</span>{' '}
+    <a
+      href="mailto:srisriyat@gmail.com"
+      className="text-indigo-300 hover:underline"
+    >
+      srisriyat@gmail.com
+    </a>
+  </p>
+  <p>
+    <span className="font-semibold text-brand-100">Phone:</span> +91-7829254444
+  </p>
+  <p>
+    <span className="font-semibold text-brand-100">LinkedIn:</span>{' '}
+    <a
+      href="https://www.linkedin.com/in/shreeshriyat"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-indigo-300 hover:underline"
+    >
+      linkedin.com/in/shreeshriyat
+    </a>
+  </p>
+</div>
+
   </section>
 );
 
