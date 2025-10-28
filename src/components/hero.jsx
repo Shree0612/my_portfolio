@@ -19,6 +19,7 @@ const Hero = () => {
         <a href="#home" className="hover:text-indigo-300 transition duration-300">Home</a>
         <a href="#projects" className="hover:text-indigo-300 transition duration-300">Projects</a>
         <a href="#resume" className="hover:text-indigo-300 transition duration-300">Resume & Certifications</a>
+                <a href="#resume" className="hover:text-indigo-300 transition duration-300">My Passion</a>
         <a href="#contact" className="hover:text-indigo-300 transition duration-300">Contact</a>
       </div>
 
@@ -47,7 +48,7 @@ const Hero = () => {
           Hi, I'm Shree Shriya T
         </h1>
         <p className="text-xl md:text-2xl text-indigo-200 max-w-xl">
-          Crafting elegant digital experiences with strategy & frontend magic.
+          “Eager to explore, learn, and create in the ever-evolving digital world.”
         </p>
       </div>
     </section>

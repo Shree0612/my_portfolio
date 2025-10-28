@@ -3,7 +3,7 @@ import Hero        from './components/hero.jsx';
 import Projects    from './components/projects.jsx';
 import ResumeCerts from './components/resumecerts.jsx';
 import Contact     from './components/contact.jsx';
-
+import PassionSection from "./components/PassionSection";
 function App() {
   return (
     <div className="relative text-white overflow-x-hidden">
@@ -17,6 +17,7 @@ function App() {
       <Hero />
       <Projects    />
       <ResumeCerts />
+       <PassionSection />
       <Contact     />
     </div>
   );
